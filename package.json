@@ -1,15 +1,19 @@
 {
   "name": "@godisbilen/types",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.1",
+  "description": "Type definitions for godisbilen.",
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": "Albin Médoc",
+  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "typescript": "^4.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godisbilen/types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godisbilen/types/issues"
+  },
+  "homepage": "https://github.com/godisbilen/types#readme"
 }
