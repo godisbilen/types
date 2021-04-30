@@ -48,3 +48,12 @@ export interface region {
     bounds: polygon;
     cars: string[];
 }
+
+export interface driver {
+    _id?: string;
+    username: string;
+    phone_number: string;
+    password: string;
+    firstname: string;
+    lastname: string;
+}
