@@ -28,10 +28,12 @@ export interface order extends create_order {
     stop_time: number;
     placed: Date;
     arrival_time: Date;
+    _id?: string;
 }
 
 export interface car {
     _id?: string;
+    nickname: string;
     driver?: string;
     region?: string;
     start_time: number;
